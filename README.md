@@ -1,2 +1,2 @@
-# react-router-expense-manager
-react router 4
+# react-expense-manager
+React Expense Manager 

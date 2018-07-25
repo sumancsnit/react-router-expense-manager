@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 const Header = () => (
     <header>
     <h1>Portfolio</h1>
-    <NavLink to={"/"}>Home page</NavLink>
-    <NavLink to={"/portfolio"}>Portfolio</NavLink>
-    <NavLink to={"/portfolio/:id"}>Individual</NavLink>
-    <NavLink to={"/contact"}>Contact page</NavLink>
+    <NavLink to={"/"} activeClassName="selected" exact>Home page</NavLink>
+    <NavLink to={"/portfolio"} activeClassName="selected" exact >Portfolio</NavLink>
+    {/* <NavLink to={"/portfolioItem/:id"} activeClassName="selected" >Individual</NavLink> */}
+    <NavLink to={"/contact"} activeClassName="selected" >Contact page</NavLink>
     </header>
 )
 
